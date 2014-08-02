@@ -1,0 +1,108 @@
+#top_twitter_wrapper {
+    float: left;
+    margin: 20px 0;
+}
+
+.sf-right{display: none;}
+
+.bsktwitterbox{
+    cursor: default;
+}
+#footer .bsktwitterbox{
+    float: left;
+    width: 175px;
+    padding: 15px 10px;
+}
+
+.bsktwitterbox .title_block{
+    margin-bottom: 15px;
+}
+#footer .bsktwitterbox .title_block{
+    background: none;
+    padding: 0;
+}
+
+.bsktwitterbox li{
+    list-style: none;
+    border-bottom: 1px dashed;
+    padding: 10px 0;
+}
+
+.bsktwitterbox li .user img{
+    float:left;
+    width: 28px;
+    margin-right: 5px;
+}
+
+.bsktwitterbox li .user span{
+    font-style: italic;
+}
+
+.bsktwitterbox li .tweet{
+    padding-bottom: 0;
+}
+
+.bsktwitterbox li .tweet a{
+    display: inline;
+}
+
+.bsktwitterbox_scroll{
+    display: none;
+    background-image: url(img/tweet.png);
+    background-repeat: no-repeat;
+    background-position: 10px 11px;
+    background-color: #383838;
+    color: #f1f1f1;
+}
+
+.bsktwitterbox_scroll a{
+    color: #f3f3f3;
+}
+
+.bsktwitterbox_scroll .followBtn{
+    float: right;
+    width: 60px;
+    margin: 15px 10px 0 0;
+}
+
+#bsktweets{
+    overflow: hidden;
+    float: left;
+    width: 87%;
+    margin: 5px 0 0 0;
+    
+    -webkit-transition: height 0.5s ease;
+    -moz-transition: height 0.5s ease;
+    -o-transition: height 0.5s ease;
+    -ms-transition: height 0.5s ease;
+    transition: height 0.5s ease;
+}
+
+#bsktweets li{
+    list-style: none;
+    padding: 10px 0 10px 40px;
+}
+
+#bsktweets li p{
+    padding: 0;
+}
+
+.bsktwitterbox_scroll .arrows{
+    float: right;
+    margin: 17px 10px 0 0;
+}
+
+#bsktwitterbox_prev,
+#bsktwitterbox_next{
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    background-image: url(img/left_arrow.png);
+    text-indent: -9999px;
+}
+
+#bsktwitterbox_next{
+    background-image: url(img/right_arrow.png);
+}
